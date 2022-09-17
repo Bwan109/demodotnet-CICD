@@ -79,7 +79,7 @@ jobs:
        with:
         image: bwan109/demo-dotnetcicd
         registry: docker.io
-        dockerfile: demodotnet-CICD/blob/master/Dockerfile
+        dockerfile: ./Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
